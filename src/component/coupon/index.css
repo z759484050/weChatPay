@@ -1,0 +1,13 @@
+.image {
+    width: 630px;
+    height: 320px;
+}
+
+.coupon {
+    position: relative;
+    margin-top: 30px;
+}
+
+.contain {
+    position: absolute;
+}

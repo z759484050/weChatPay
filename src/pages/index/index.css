@@ -1,0 +1,117 @@
+.app {
+    text-align: center;
+}
+
+.header {
+    background-color: #E3482E;
+    font-size: 40px;
+    color: #F7F7F7;
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+
+.contain {
+    position: relative;
+    top: -70px;
+    background-color: #F7F7F7;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 54px 39px 39px 39px;
+}
+
+.title {
+    height: 45px;
+    border-left: 8px solid #E3482E;
+    display: flex;
+    padding-left: 16px;
+    justify-content: space-between;
+}
+
+.titleLeft {
+    font-family: PingFangSC-Medium;
+    font-size: 32px;
+    color: #252525;
+    letter-spacing: 0;
+    line-height: 45px;
+    text-align: center;
+}
+
+.titleRight {
+    opacity: 0.6;
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 39px;
+}
+
+.building {
+    width: 454px;
+    height: 312px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.watsons {
+    width: 242px;
+    height: 103px;
+    position: absolute;
+    top: 49px;
+    left: 48px;
+}
+
+.image {
+    width: 630px;
+    height: 320px;
+}
+
+.Coupon {
+    margin-bottom: 106px;
+}
+
+.UnderCoupon {
+    margin-top: 35px;
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin-bottom: 106px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.footerLeft {
+    width: 267px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerText {
+    opacity: 0.6;
+    font-family: PingFangSC-Light;
+    font-size: 26px;
+    color: #000000;
+    line-height: 36px;
+}
+
+.icon {
+    width: 71px;
+    height: 71px;
+}
+
+.right {
+    width: 36px;
+    height: 36px;
+}

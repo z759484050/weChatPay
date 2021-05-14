@@ -1,0 +1,53 @@
+.imageBody {
+    width: 339px;
+    height: 431px;
+    position: relative;
+}
+
+.image {
+    width: 339px;
+    height: 431px;
+}
+
+.titleBody {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+
+.title {
+    opacity: 0.9;
+    font-family: PingFangSC-Medium;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.type {
+    opacity: 0.9;
+    font-family: PingFangSC-Medium;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    bottom: 43px;
+    left: 92px;
+    background: #F15451;
+    border-radius: 5.4px;
+    border-radius: 5.4px;
+    width: 157px;
+    height: 56px;
+    font-family: PingFangSC-Medium;
+    font-size: 23.4px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
