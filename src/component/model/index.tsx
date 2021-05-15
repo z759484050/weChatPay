@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View, CoverView, Image, Button, Text } from 'remax/wechat'
+import { View, CoverView, Image, Button, Text} from 'remax/wechat'
 import styles from './index.css'
 
 interface modelProps {
@@ -19,7 +19,11 @@ export default ({ isVisible, setIsVisible }: modelProps) => {
             setStep(1)
         }
     }
-    return isVisible ? <View className={styles.contain}>
+    return isVisible ? <View className={styles.contain} catchTouchMove={()=>{
+        return
+    }}>
+        <View className={styles.center}>
+
         <Text className={styles.text}>恭喜你获得:</Text>
         <View className={styles.imageBody}> 
             <Image src={step===1?"/images/Model1.0.png":"/images/step2.png"} className={styles.image}></Image>
@@ -32,8 +36,10 @@ export default ({ isVisible, setIsVisible }: modelProps) => {
                     <View className={styles.line}></View>
                     <Text className={styles.reference}>市场参考价</Text><Text className={styles.price}>85.80人民币</Text>
                 </View>
-            </View>
+            </View>   
         </View>
         <Button onClick={handleClick} className={styles.button} >{step===1?'点击领取下一张':'领取更多'}</Button>
+        </View>
+       
     </View> : null
 }

@@ -11,3 +11,152 @@
 .contain {
     position: absolute;
 }
+
+.name {
+    position: absolute;
+    left: 279px;
+    top: 62px;
+    font-family: PingFangSC-Medium;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.explain {
+    position: absolute;
+    left: 279px;
+    top: 123px;
+    opacity: 0.9;
+    font-family: PingFangSC-Light;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.exchangeRate {
+    position: absolute;
+    top: 264px;
+    left: 48px;
+    opacity: 0.6;
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.oldPrices {
+    position: absolute;
+    top: 266px;
+    left: 312px;
+    opacity: 0.3;
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.oldPrice {
+    position: absolute;
+    top: 266px;
+    left: 436px;
+    opacity: 0.3;
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.number {
+    position: absolute;
+    position: absolute;
+    top: 258px;
+    left: 27px;
+    border: 2px solid #E9E9E9;
+    border-radius: 20px;
+    border-radius: 20px;
+    opacity: 0.6;
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.notes {
+    position: absolute;
+    top: 256px;
+    left: 176px;
+    opacity: 0.3;
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.condition {
+    position: absolute;
+    top: 108px;
+    left: 57px;
+    opacity: 0.6;
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.price {
+    position: absolute;
+    top: 20px;
+    left: 69px;
+    font-family: Helvetica;
+    font-size: 80px;
+    color: #F15451;
+    letter-spacing: -2.8px;
+}
+
+.yuan {
+    position: absolute;
+    left: 156px;
+    top: 57px;
+    font-family: PingFangSC-Medium;
+    font-size: 30px;
+    color: #F15451;
+    letter-spacing: 0;
+}
+
+.title {
+    position: absolute;
+    left: 234px;
+    top: 50px;
+    opacity: 0.9;
+    font-family: PingFangSC-Medium;
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.time {
+    position: absolute;
+    left: 234px;
+    top: 107px;
+    opacity: 0.6;
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #282A30;
+    letter-spacing: 0;
+}
+
+.unders {
+    position: absolute;
+    left: 53px;
+    top: 251px;
+    opacity: 0.3;
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+}
